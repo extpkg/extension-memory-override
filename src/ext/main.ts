@@ -44,8 +44,8 @@ ext.runtime.onExtensionClick.addListener(async () => {
       mutable: true,
     });
 
-    const aspectRatio = 960 / 600;
-    const minWidth = 960;
+    const aspectRatio = 900 / 600;
+    const minWidth = 900;
     const minHeight = minWidth / aspectRatio;
 
     window = await ext.windows.create({
@@ -65,13 +65,8 @@ ext.runtime.onExtensionClick.addListener(async () => {
 
     const contentSize = await ext.windows.getContentSize(window.id);
 
-    const permissions = await ext.runtime.getPermissions();
-    const persistent =
-      (permissions["websessions"] ?? {})["create.persistent"]?.granted ?? false;
-
     websession = await ext.websessions.create({
       partition: title,
-      persistent,
       global: false,
     });
     webview = await ext.webviews.create({
