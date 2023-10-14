@@ -1,6 +1,6 @@
 {
   "name": "extension-memory-override",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "AI race against time #memory #override",
   "type": "module",
   "scripts": {

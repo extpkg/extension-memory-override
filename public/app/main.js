@@ -46,7 +46,7 @@ const keyMap = {
 window.addEventListener("keydown", (ev) => {
   if (keyMap[ev.code]) {
     game.buttonDown(keyMap[ev.code]);
-    ev.preventDefault();
+    // ev.preventDefault();
   } else {
     game.buttonDown("*"); //any-key
   }
@@ -55,7 +55,7 @@ window.addEventListener("keydown", (ev) => {
 window.addEventListener("keyup", (ev) => {
   if (keyMap[ev.code]) {
     game.buttonUp(keyMap[ev.code]);
-    ev.preventDefault();
+    // ev.preventDefault();
   }
   return false;
 });
