@@ -3,7 +3,7 @@
   "name": "Memory Override",
   "short_name": "Memory Override",
   "description": "AI race against time #memory #override",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "EXT, Inc.",
   "icons": {
     "128": "./assets/128.png",
