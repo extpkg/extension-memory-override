@@ -6,22 +6,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-}
-
-body {
-  background: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#M {
-  position: absolute;
-  background: #000;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  overflow: hidden;
 }
 
 #M {
@@ -30,18 +15,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  margin: auto;
-
-  width: 100vw;
-  height: 66.66vw;
   background: #000;
-}
-
-@media (min-aspect-ratio: 3/2) {
-  #M {
-    width: 150vh;
-    height: 100vh;
-  }
 }
 
 #HUD {
