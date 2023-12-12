@@ -13,3 +13,6 @@ AI race against time #memory #override
 
 Run `npm run dev` to watch `src` and `public` directories and rebuild the
 project on changes
+
+## Source
+https://github.com/bencoder/js13k-2019
